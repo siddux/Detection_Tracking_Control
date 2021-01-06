@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp
+pid.h
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.h
+math.h
+-
+
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.h
+cstdint
+-
+

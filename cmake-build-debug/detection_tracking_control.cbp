@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="detection_tracking_control"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detection_tracking_control">
+				<Option output="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/detection_tracking_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.5.0_5/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 detection_tracking_control"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detection_tracking_control/fast">
+				<Option output="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/detection_tracking_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv/4.5.0_5/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 detection_tracking_control/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp">
+			<Option target="detection_tracking_control"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.h">
+			<Option target="detection_tracking_control"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
