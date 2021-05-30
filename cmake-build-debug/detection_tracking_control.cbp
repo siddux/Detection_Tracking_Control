@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp">
-			<Option target="detection_tracking_control"/>
-		</Unit>
-		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.h">
+		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/camshift.cpp">
 			<Option target="detection_tracking_control"/>
 		</Unit>
 		<Unit filename="/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/CMakeLists.txt">

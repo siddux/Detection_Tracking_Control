@@ -57,27 +57,27 @@ include CMakeFiles/detection_tracking_control.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/detection_tracking_control.dir/flags.make
 
-CMakeFiles/detection_tracking_control.dir/pid.cpp.o: CMakeFiles/detection_tracking_control.dir/flags.make
-CMakeFiles/detection_tracking_control.dir/pid.cpp.o: ../pid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detection_tracking_control.dir/pid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detection_tracking_control.dir/pid.cpp.o -c /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp
+CMakeFiles/detection_tracking_control.dir/camshift.cpp.o: CMakeFiles/detection_tracking_control.dir/flags.make
+CMakeFiles/detection_tracking_control.dir/camshift.cpp.o: ../camshift.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detection_tracking_control.dir/camshift.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detection_tracking_control.dir/camshift.cpp.o -c /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/camshift.cpp
 
-CMakeFiles/detection_tracking_control.dir/pid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detection_tracking_control.dir/pid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp > CMakeFiles/detection_tracking_control.dir/pid.cpp.i
+CMakeFiles/detection_tracking_control.dir/camshift.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detection_tracking_control.dir/camshift.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/camshift.cpp > CMakeFiles/detection_tracking_control.dir/camshift.cpp.i
 
-CMakeFiles/detection_tracking_control.dir/pid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detection_tracking_control.dir/pid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp -o CMakeFiles/detection_tracking_control.dir/pid.cpp.s
+CMakeFiles/detection_tracking_control.dir/camshift.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detection_tracking_control.dir/camshift.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduardriusmartinez/CLionProjects/detection_tracking_control/camshift.cpp -o CMakeFiles/detection_tracking_control.dir/camshift.cpp.s
 
 # Object files for target detection_tracking_control
 detection_tracking_control_OBJECTS = \
-"CMakeFiles/detection_tracking_control.dir/pid.cpp.o"
+"CMakeFiles/detection_tracking_control.dir/camshift.cpp.o"
 
 # External object files for target detection_tracking_control
 detection_tracking_control_EXTERNAL_OBJECTS =
 
-detection_tracking_control: CMakeFiles/detection_tracking_control.dir/pid.cpp.o
+detection_tracking_control: CMakeFiles/detection_tracking_control.dir/camshift.cpp.o
 detection_tracking_control: CMakeFiles/detection_tracking_control.dir/build.make
 detection_tracking_control: /usr/local/lib/libopencv_highgui.4.5.0.dylib
 detection_tracking_control: /usr/local/lib/libopencv_xfeatures2d.4.5.0.dylib

@@ -1,0 +1,3 @@
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/build/CMakeFiles/rebuild_cache.dir
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/build/CMakeFiles/edit_cache.dir
+/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/build/CMakeFiles/detection_tracking_control.dir

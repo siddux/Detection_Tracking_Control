@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/detection_tracking_control.dir/pid.cpp.o"
+  "CMakeFiles/detection_tracking_control.dir/camshift.cpp.o"
   "detection_tracking_control"
   "detection_tracking_control.pdb"
 )

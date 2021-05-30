@@ -123,32 +123,32 @@ detection_tracking_control/fast:
 	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/build
 .PHONY : detection_tracking_control/fast
 
-pid.o: pid.cpp.o
+camshift.o: camshift.cpp.o
 
-.PHONY : pid.o
+.PHONY : camshift.o
 
 # target to build an object file
-pid.cpp.o:
-	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/pid.cpp.o
-.PHONY : pid.cpp.o
+camshift.cpp.o:
+	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/camshift.cpp.o
+.PHONY : camshift.cpp.o
 
-pid.i: pid.cpp.i
+camshift.i: camshift.cpp.i
 
-.PHONY : pid.i
+.PHONY : camshift.i
 
 # target to preprocess a source file
-pid.cpp.i:
-	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/pid.cpp.i
-.PHONY : pid.cpp.i
+camshift.cpp.i:
+	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/camshift.cpp.i
+.PHONY : camshift.cpp.i
 
-pid.s: pid.cpp.s
+camshift.s: camshift.cpp.s
 
-.PHONY : pid.s
+.PHONY : camshift.s
 
 # target to generate assembly for a file
-pid.cpp.s:
-	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/pid.cpp.s
-.PHONY : pid.cpp.s
+camshift.cpp.s:
+	$(MAKE) -f CMakeFiles/detection_tracking_control.dir/build.make CMakeFiles/detection_tracking_control.dir/camshift.cpp.s
+.PHONY : camshift.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... detection_tracking_control"
-	@echo "... pid.o"
-	@echo "... pid.i"
-	@echo "... pid.s"
+	@echo "... camshift.o"
+	@echo "... camshift.i"
+	@echo "... camshift.s"
 .PHONY : help
 
 

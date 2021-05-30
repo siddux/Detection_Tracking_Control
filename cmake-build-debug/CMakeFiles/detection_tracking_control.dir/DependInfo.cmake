@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/pid.cpp" "/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/CMakeFiles/detection_tracking_control.dir/pid.cpp.o"
+  "/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/camshift.cpp" "/Users/eduardriusmartinez/CLionProjects/detection_tracking_control/cmake-build-debug/CMakeFiles/detection_tracking_control.dir/camshift.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
